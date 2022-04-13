@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #ecb365;
+  color: white;
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  justify-content: center;
+}
+
+.credit-card-container {
+  background-color: #041c32;
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  height: 300px;
+  width: 500px;
+}
+
+.card-title-container {
+  background-color: #ecb365;
+  opacity: 0.8;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      #ecb365 20%,
+      #ecb365 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #ecb365 20%,
+        #ecb365 80%,
+        transparent 80%,
+        transparent
+      )
+      10px 10px,
+    linear-gradient(#041c32 0.8px, transparent 0.8px) 0 -0.4px,
+    linear-gradient(90deg, #041c32 0.8px, #ecb365 0.8px) -0.4px 0;
+  background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;
+  display: flex;
+  align-items: center;
+  height: 65px;
+  width: 100%;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+.card-title-container > h1 {
+  color: #8e0505;
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0px;
+  padding: 2px 4px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 30px;
+}
+
+h4 {
+  color: #ecb365;
+  font-weight: 500;
+}
+
+.card-number > input,
+.card-holder > input {
+  background-color: #36495b;
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  color: whitesmoke;
+  font-size: 1rem;
+  height: 40px;
+  margin-top: 5px;
+  padding: 4px 8px;
+  width: 100%;
+}
+
+.card-number > input:active,
+.card-holder > input:active {
+  border-color: #041c32;
+}
+
+.card-number > p {
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expiration-container {
+  display: flex;
+  gap: 10px;
+}
+
+.card-cvv > input,
+.expiration-container > input {
+  background-color: #36495b;
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  color: whitesmoke;
+  height: 40px;
+  font-size: 1rem;
+  margin-top: 5px;
+  padding: 4px 8px;
+  width: 50px;
+}
+
+.card-cvv > input::placeholder,
+.expiration-container > input::placeholder {
+  text-align: center;
+}

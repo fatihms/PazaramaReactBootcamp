@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Check</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="credit-card-container" id="creditCardContainer">
+        <div class="card-title-container">
+            <h1 id="cardTitle">&nbsp;</h1>
+        </div>
+        <div class="card-body">
+            <div class="card-header">
+                <div class="card-number">
+                    <h4>CARD NUMBER</h4>
+                    <input type="text" placeholder="1248-9571-2481-0587" id="cardNumber">
+                    <p id="errorMessage"></p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="card-holder">
+                    <h4>CARD HOLDER</h4>
+                    <input type="text" placeholder="e.g. fatih mustafa sağır">
+                </div>
+                <div class="card-expiration">
+                    <h4>EXPIRATION</h4>
+                    <div class="expiration-container">
+                        <input type="text" placeholder="MM">
+                        <input type="text" placeholder="YY">
+                    </div>
+                </div>
+                <div class="card-cvv">
+                    <h4>CVV</h4>
+                    <input type="text" placeholder="123">
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+
+</html>
