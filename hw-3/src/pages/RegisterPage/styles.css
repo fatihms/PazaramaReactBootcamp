@@ -1,0 +1,142 @@
+.register-page-container {
+  background-color: #b91646;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-area-container {
+  display: flex;
+  background-color: #dfd8ca;
+  width: 80%;
+  height: 80%;
+  border-radius: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ra-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbf3e4;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  width: 45%;
+  height: 100%;
+}
+
+.ra-right {
+  width: 25%;
+}
+
+.ra-r-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-right: 22px;
+}
+
+.ra-middle {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.ra-middle-image {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 100%;
+}
+
+.ra-mi-img {
+  position: absolute;
+  width: 325px;
+}
+
+.ra-middle-left {
+  width: 50%;
+  background-color: #fbf3e4;
+}
+
+.ra-middle-right {
+  width: 50%;
+}
+.ra-mr-image {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+  .register-area-container {
+    width: 90%;
+  }
+  .ra-middle-image {
+    position: absolute;
+    top: 29%;
+    left: 10%;
+    width: 100%;
+  }
+  .ra-mi-img {
+    position: absolute;
+    width: 300px;
+  }
+  .ra-mr-image {
+    position: absolute;
+    top: 17%;
+    right: 0%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .register-area-container {
+    width: 90%;
+  }
+  .ra-middle-image {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 100%;
+  }
+  .ra-mi-img {
+    position: absolute;
+    width: 280px;
+  }
+
+  .ra-mr-image {
+    position: absolute;
+    top: 14%;
+    right: -5%;
+    height: 180px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .register-area-container {
+    width: 90%;
+  }
+  .ra-middle-image {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 100%;
+  }
+  .ra-mi-img {
+    position: absolute;
+    width: 260px;
+  }
+
+  .ra-mr-image {
+    position: absolute;
+    width: 120px;
+    height: 140px;
+    top: 22%;
+    right: -12%;
+  }
+}

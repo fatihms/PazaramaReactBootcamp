@@ -12,7 +12,7 @@
   | :-----: | :-----------------------------------------------------------------------: |
   | Ödev-1  | [Ödev-1](https://github.com/fatihms/PazaramaReactBootcamp/tree/main/hw-1) |
   | Ödev-2  | [Ödev-2](https://github.com/fatihms/PazaramaReactBootcamp/tree/main/hw-2) |
-  | Ödev-3  |                                                                           |
+  | Ödev-3  | [Ödev-3](https://github.com/fatihms/PazaramaReactBootcamp/tree/main/hw-3) |
 
 - ### Proje
   | Proje | Bağlantı |

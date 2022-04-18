@@ -1,0 +1,41 @@
+.l-h2 {
+  font-weight: bold;
+  font-size: 38px;
+  color: #105652;
+}
+
+.l-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 28px;
+}
+
+.l-button-container {
+  margin-top: 42px;
+}
+
+.l-alternative-login-text {
+  margin-top: 45px;
+  text-align: center;
+  font-size: 14px;
+  color: #105652;
+}
+
+.l-social-media-buttons-container {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+}
+.l-register-container {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #105652;
+}
+
+.r-link {
+  text-decoration: none;
+  font-weight: 600;
+}

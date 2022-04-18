@@ -1,0 +1,5 @@
+.image-mask-stlye-img {
+  clip-path: url("#myClipPath");
+  width: 330px;
+  height: 100%;
+}

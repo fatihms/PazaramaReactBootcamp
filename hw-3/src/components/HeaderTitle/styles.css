@@ -1,0 +1,17 @@
+.header-title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ht-title {
+  font-family: "Righteous", cursive;
+  font-size: 5.5rem;
+  color: #b91646;
+  letter-spacing: 3px;
+}
+
+.ht-paragraph {
+  color: #105652;
+  font-size: 1.5rem;
+}
