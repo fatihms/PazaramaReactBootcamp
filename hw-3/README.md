@@ -3,9 +3,9 @@ Login ve Register sayfalarında bulunan ortadaki karanlık alan için [M. Gustav
 # Ödev Çıktısı
 
 <p align="center">
-        <img src="https://raw.githubusercontent.com/fatihms/PazaramaReactBootcamp/main/assets/hw-3-index.PNG">
-        <img src="https://raw.githubusercontent.com/fatihms/PazaramaReactBootcamp/main/assets/hw-3-login.PNG">
-         <img src="https://raw.githubusercontent.com/fatihms/PazaramaReactBootcamp/main/assets hw-3-register.PNG">
+        <img src="https://raw.githubusercontent.com/fatihms/PazaramaReactBootcamp/main/assets/hw-3-index.png">
+        <img src="https://raw.githubusercontent.com/fatihms/PazaramaReactBootcamp/main/assets/hw-3-login.png">
+         <img src="https://raw.githubusercontent.com/fatihms/PazaramaReactBootcamp/main/assets/hw-3-register.png">
 </p>
 
 # Ödev Açıklaması
