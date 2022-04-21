@@ -15,6 +15,6 @@
   | Ödev-3  | [Ödev-3](https://github.com/fatihms/PazaramaReactBootcamp/tree/main/hw-3) |
 
 - ### Proje
-  | Proje | Bağlantı |
-  | :---: | :------: |
-  | Proje |          |
+  | Proje |                                     Bağlantı                                      |
+  | :---: | :-------------------------------------------------------------------------------: |
+  | Proje | [Proje](https://github.com/fatihms/PazaramaReactBootcamp/tree/main/final-project) |
